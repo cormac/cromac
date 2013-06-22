@@ -88,24 +88,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-transition-property: -o-transform, margin-left;
   transition-property: transform, margin-left;
   margin-left: 0px;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: display;
+  -moz-backface-visibility: display;
+  -ms-backface-visibility: display;
+  -o-backface-visibility: display;
+  backface-visibility: display;
 }
-
-/* line 13, ../sass/_logo.scss */
-.logo-container:hover {
+/* line 12, ../sass/_logo.scss */
+.logo-container.flipped {
   margin-left: 300px;
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-/* line 18, ../sass/_logo.scss */
+/* line 19, ../sass/_logo.scss */
 .outer-circle-white {
   border: 19px solid white;
   width: 110%;
@@ -119,7 +118,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /* background-color:black;*/
 }
 
-/* line 31, ../sass/_logo.scss */
+/* line 32, ../sass/_logo.scss */
 .outer-circle {
   border: 5px solid black;
   width: 100%;
@@ -129,7 +128,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
   /* background-color:black;*/
 }
-/* line 33, ../sass/_logo.scss */
+/* line 34, ../sass/_logo.scss */
 .outer-circle.back {
   border: 5px solid green;
   -webkit-transform: rotateY(180deg);
@@ -139,12 +138,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   transform: rotateY(180deg);
 }
 
-/* line 44, ../sass/_logo.scss */
+/* line 45, ../sass/_logo.scss */
 .outer-circle .back {
   border: 5px solid green;
 }
 
-/* line 47, ../sass/_logo.scss */
+/* line 48, ../sass/_logo.scss */
 .inner-circle {
   border: 3px solid black;
   position: absolute;
@@ -156,7 +155,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: black;
 }
 
-/* line 57, ../sass/_logo.scss */
+/* line 58, ../sass/_logo.scss */
 .middle-circle {
   position: absolute;
   border: 1em solid black;
@@ -167,7 +166,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 50%;
 }
 
-/* line 66, ../sass/_logo.scss */
+/* line 67, ../sass/_logo.scss */
 .black-cover {
   background-color: black;
   width: 5.2em;
@@ -178,7 +177,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 75, ../sass/_logo.scss */
+/* line 76, ../sass/_logo.scss */
 .right-white-small {
   height: 1.5em;
   width: 1.5em;
@@ -190,7 +189,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 85, ../sass/_logo.scss */
+/* line 86, ../sass/_logo.scss */
 .right-black-small {
   height: 1.6em;
   -webkit-transform: rotate(315deg);
@@ -206,7 +205,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 95, ../sass/_logo.scss */
+/* line 96, ../sass/_logo.scss */
 .left-white-small {
   height: 1.5em;
   width: 1.5em;
@@ -218,7 +217,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 105, ../sass/_logo.scss */
+/* line 106, ../sass/_logo.scss */
 .left-black-small {
   height: 1.6em;
   -webkit-transform: rotate(45deg);
@@ -234,7 +233,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 115, ../sass/_logo.scss */
+/* line 116, ../sass/_logo.scss */
 .right-white-large {
   height: 4.65em;
   width: 4.65em;
@@ -246,7 +245,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 125, ../sass/_logo.scss */
+/* line 126, ../sass/_logo.scss */
 .left-white-large {
   height: 4.65em;
   width: 4.65em;
@@ -258,7 +257,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 137, ../sass/_logo.scss */
+/* line 138, ../sass/_logo.scss */
 .right-black-large {
   height: 4.85em;
   -webkit-transform: rotate(315deg);
@@ -274,7 +273,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 147, ../sass/_logo.scss */
+/* line 148, ../sass/_logo.scss */
 .left-black-large {
   height: 4.85em;
   -webkit-transform: rotate(45deg);
