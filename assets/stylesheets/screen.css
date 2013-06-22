@@ -1,0 +1,291 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_logo.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/_logo.scss */
+.logo-container {
+  width: 20em;
+  height: 20em;
+  position: relative;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+  -webkit-transition-property: -webkit-transform, margin-left;
+  -moz-transition-property: -moz-transform, margin-left;
+  -o-transition-property: -o-transform, margin-left;
+  transition-property: transform, margin-left;
+  margin-left: 0px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 13, ../sass/_logo.scss */
+.logo-container:hover {
+  margin-left: 300px;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* line 18, ../sass/_logo.scss */
+.outer-circle-white {
+  border: 19px solid white;
+  width: 110%;
+  height: 110%;
+  border-radius: 50%;
+  margin-top: -5%;
+  margin-left: -5%;
+  background-color: none;
+  z-index: 5;
+  position: absolute;
+  /* background-color:black;*/
+}
+
+/* line 31, ../sass/_logo.scss */
+.outer-circle {
+  border: 5px solid black;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 6;
+  position: absolute;
+  /* background-color:black;*/
+}
+/* line 33, ../sass/_logo.scss */
+.outer-circle.back {
+  border: 5px solid green;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* line 44, ../sass/_logo.scss */
+.outer-circle .back {
+  border: 5px solid green;
+}
+
+/* line 47, ../sass/_logo.scss */
+.inner-circle {
+  border: 3px solid black;
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 7.5em;
+  left: 7.5em;
+  border-radius: 50%;
+  background-color: black;
+}
+
+/* line 57, ../sass/_logo.scss */
+.middle-circle {
+  position: absolute;
+  border: 1em solid black;
+  width: 10em;
+  height: 10em;
+  top: 5em;
+  left: 5em;
+  border-radius: 50%;
+}
+
+/* line 66, ../sass/_logo.scss */
+.black-cover {
+  background-color: black;
+  width: 5.2em;
+  top: 11.75em;
+  left: 7.3em;
+  height: 8em;
+  z-index: 1;
+  position: absolute;
+}
+
+/* line 75, ../sass/_logo.scss */
+.right-white-small {
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+  background-color: white;
+  left: 12em;
+  top: 11em;
+  z-index: 2;
+  position: absolute;
+}
+
+/* line 85, ../sass/_logo.scss */
+.right-black-small {
+  height: 1.6em;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+  width: 1.5em;
+  background-color: black;
+  left: 11.6em;
+  top: 11.5em;
+  z-index: 1;
+  position: absolute;
+}
+
+/* line 95, ../sass/_logo.scss */
+.left-white-small {
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+  background-color: white;
+  left: 6.5em;
+  top: 11em;
+  z-index: 2;
+  position: absolute;
+}
+
+/* line 105, ../sass/_logo.scss */
+.left-black-small {
+  height: 1.6em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 1.5em;
+  background-color: black;
+  left: 6.8em;
+  top: 11.4em;
+  z-index: 1;
+  position: absolute;
+}
+
+/* line 115, ../sass/_logo.scss */
+.right-white-large {
+  height: 4.65em;
+  width: 4.65em;
+  border-radius: 50%;
+  background-color: white;
+  left: 12.95em;
+  top: 12.8em;
+  z-index: 2;
+  position: absolute;
+}
+
+/* line 125, ../sass/_logo.scss */
+.left-white-large {
+  height: 4.65em;
+  width: 4.65em;
+  border-radius: 50%;
+  background-color: white;
+  left: 2.45em;
+  top: 12.8em;
+  z-index: 2;
+  position: absolute;
+}
+
+/* line 137, ../sass/_logo.scss */
+.right-black-large {
+  height: 4.85em;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+  width: 4.85em;
+  background-color: black;
+  left: 10.9em;
+  top: 14.5em;
+  z-index: 1;
+  position: absolute;
+}
+
+/* line 147, ../sass/_logo.scss */
+.left-black-large {
+  height: 4.85em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 4.85em;
+  background-color: black;
+  left: 4.18em;
+  top: 14.5em;
+  z-index: 1;
+  position: absolute;
+}

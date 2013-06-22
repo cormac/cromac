@@ -1,0 +1,9 @@
+*.swp
+*.swo
+.DS_Store
+.livereload
+.sass-cache
+Gemfile.lock
+Gemfile
+Guardfile
+config.rb
