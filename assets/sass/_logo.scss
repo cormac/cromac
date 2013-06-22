@@ -8,7 +8,7 @@
   @include transition-duration(2s);
   @include transition-property(transform, margin-left);
   margin-left: 0px;
-  @include backface-visibility();
+  @include backface-visibility(display);
 }
 .logo-container:hover {
   margin-left: 300px;
