@@ -179,19 +179,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 76, ../sass/_logo.scss */
 .right-white-small {
-  height: 1.5em;
-  width: 1.5em;
+  height: 1.51em;
+  width: 1.51em;
   border-radius: 50%;
   background-color: white;
   left: 12em;
-  top: 11em;
+  top: 10.98em;
   z-index: 2;
   position: absolute;
 }
 
-/* line 86, ../sass/_logo.scss */
+/* line 87, ../sass/_logo.scss */
 .right-black-small {
-  height: 1.6em;
+  height: 1.8em;
   -webkit-transform: rotate(315deg);
   -moz-transform: rotate(315deg);
   -ms-transform: rotate(315deg);
@@ -205,21 +205,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 96, ../sass/_logo.scss */
+/* line 97, ../sass/_logo.scss */
 .left-white-small {
-  height: 1.5em;
-  width: 1.5em;
+  height: 1.51em;
+  width: 1.51em;
   border-radius: 50%;
   background-color: white;
   left: 6.5em;
-  top: 11em;
+  top: 10.95em;
   z-index: 2;
   position: absolute;
 }
 
-/* line 106, ../sass/_logo.scss */
+/* line 107, ../sass/_logo.scss */
 .left-black-small {
-  height: 1.6em;
+  height: 1.8em;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -233,47 +233,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
 }
 
-/* line 116, ../sass/_logo.scss */
+/* line 117, ../sass/_logo.scss */
 .right-white-large {
-  height: 4.65em;
-  width: 4.65em;
+  height: 4.7em;
+  width: 4.7em;
   border-radius: 50%;
   background-color: white;
   left: 12.95em;
-  top: 12.8em;
+  top: 12.73em;
   z-index: 2;
   position: absolute;
 }
 
-/* line 126, ../sass/_logo.scss */
-.left-white-large {
-  height: 4.65em;
-  width: 4.65em;
-  border-radius: 50%;
-  background-color: white;
-  left: 2.45em;
-  top: 12.8em;
-  z-index: 2;
-  position: absolute;
-}
-
-/* line 138, ../sass/_logo.scss */
+/* line 129, ../sass/_logo.scss */
 .right-black-large {
-  height: 4.85em;
+  height: 5.2em;
   -webkit-transform: rotate(315deg);
   -moz-transform: rotate(315deg);
   -ms-transform: rotate(315deg);
   -o-transform: rotate(315deg);
   transform: rotate(315deg);
-  width: 4.85em;
+  width: 4.8em;
   background-color: black;
-  left: 10.9em;
-  top: 14.5em;
+  left: 11em;
+  top: 14.3em;
   z-index: 1;
   position: absolute;
 }
 
-/* line 148, ../sass/_logo.scss */
+/* line 140, ../sass/_logo.scss */
+.left-white-large {
+  height: 4.7em;
+  width: 4.7em;
+  border-radius: 50%;
+  background-color: white;
+  left: 2.45em;
+  top: 12.85em;
+  z-index: 2;
+  position: absolute;
+}
+
+/* line 151, ../sass/_logo.scss */
 .left-black-large {
   height: 4.85em;
   -webkit-transform: rotate(45deg);
